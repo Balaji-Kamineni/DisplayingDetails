@@ -1,0 +1,18 @@
+<web-app>
+<servlet>
+	<servlet-name>F</servlet-name>
+	<servlet-class>empservlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>F</servlet-name>
+	<url-pattern>/emp</url-pattern>
+</servlet-mapping>
+<servlet>
+	<servlet-name>S</servlet-name>
+	<servlet-class>displayservlet</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>S</servlet-name>
+	<url-pattern>/disp</url-pattern>
+</servlet-mapping>
+</web-app>
